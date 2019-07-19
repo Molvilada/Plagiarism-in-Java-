@@ -1,4 +1,4 @@
-// Generated from C:/Users/juan diego molina/IdeaProjects/Plagiarism in Java/grammar\Java8.g4 by ANTLR 4.7.2
+// Generated from C:/Users/juan diego molina/Documents/Laura/Universidad/2019/Lenguajes/Plagiarism-in-Java-/grammar\Java8.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
