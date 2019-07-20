@@ -4,6 +4,23 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Main {
+
+    static void CompararForFor(Plagiarism plagiarism1, Plagiarism plagiarism2){
+        int forifuales = 0;
+        for(int i = 0; i < plagiarism2.fors.size(); i++){
+            for(int j=0;j<plagiarism1.fors.size();j++){
+                if(plagiarism1.fors.contains(plagiarism2.fors.get(i)) || plagiarism2.fors.contains(plagiarism1.fors.get(j))){
+                    forifuales++;
+                }
+            }
+        }
+        for(int i =0; i<plagiarism1.fors.size();i++){
+            for(int j=0;j<plagiarism2.fors.size();j++){
+                plagiarism1.fors.get(i);
+            }
+        }
+    }
+
     public static void main(String[] args) throws Exception {
         try{
             // crear un analizador léxico que se alimenta a partir de la entrada (archivo  o consola)
@@ -27,10 +44,10 @@ public class Main {
             ParseTree tree2 = parser2.compilationUnit();
             ParseTreeWalker walker1 = new ParseTreeWalker();
             ParseTreeWalker walker2 = new ParseTreeWalker();
-            Plagiarism analizis1 = new Plagiarism();
-            Plagiarism analizis2 = new Plagiarism();
-            walker1.walk(analizis1, tree1);
-            walker2.walk(analizis2, tree2);
+            Plagiarism analisis1 = new Plagiarism();
+            Plagiarism analisis2 = new Plagiarism();
+            walker1.walk(analisis1, tree1);
+            walker2.walk(analisis2, tree2);
             System.out.println("Análisis finalizado");
             int iguales_type = 0, iguales_text = 0;
 //            System.out.println(tree1.toStringTree(parser1)); // imprime el arbol al estilo LISP
@@ -97,9 +114,12 @@ public class Main {
             System.out.println("Tipos de tokens iguales: " + iguales_type);
             System.out.println("Jaccard Tokens:  " + ((float)(iguales_text)/(float)(size1 + size2-iguales_text)));
             System.out.println("Jaccard tipos de tokens:  " + ((float)(iguales_type)/(float)(size1 + size2-iguales_type)));
+            CompararForFor(analisis1, analisis2);
         } catch (Exception e){
             System.err.println("Error (Test): " + e);
         }
     }
+
+
 }
 

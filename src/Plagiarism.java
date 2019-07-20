@@ -11,16 +11,17 @@ import java.util.Stack;
 import java.util.concurrent.locks.Condition;
 
 public class Plagiarism extends Java8BaseListener {
-    ArrayList<String> Trees = new ArrayList<>();
+    ArrayList<String> fors = new ArrayList<>();
+    ArrayList<String> whiles = new ArrayList<>();
 
     @Override
     public void enterBasicForStatement(Java8Parser.BasicForStatementContext ctx) {
-        super.enterBasicForStatement(ctx);
+        fors.add(ctx.getText());
     }
 
     @Override
     public void enterWhileStatement(Java8Parser.WhileStatementContext ctx) {
-        super.enterWhileStatement(ctx);
+        whiles.add(ctx.getText());
     }
 
     @Override
