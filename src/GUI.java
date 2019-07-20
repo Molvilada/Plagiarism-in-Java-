@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.*;
 
 public class GUI {
     private JButton realizarAnalisisButton;
@@ -12,12 +13,43 @@ public class GUI {
         realizarAnalisisButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                String entrada1 = codigoAAnalizar1TextArea.getText();
-                String entrada2 = codigoAAnalizar2TextArea.getText();
+                FileWriter fichero1 = null;
+                PrintWriter pw1 = null;
+                FileWriter fichero2 = null;
+                PrintWriter pw2 = null;
                 String caso = (String) comboBox1.getSelectedItem();
-                System.out.println(entrada1);
-                System.out.println(caso);
-                System.out.println(entrada2);
+                try{
+                    fichero1 = new FileWriter("input/entrada.txt");
+                    pw1 = new PrintWriter(fichero1);
+                    fichero2 = new FileWriter("input/entrada2.txt");
+                    pw2 = new PrintWriter(fichero2);
+                    String entrada1 = codigoAAnalizar1TextArea.getText();
+                    String entrada2 = codigoAAnalizar2TextArea.getText();
+                    pw1.println(entrada1);
+                    pw2.println(entrada2);
+                } catch (Exception a) {
+                    a.printStackTrace();
+                } finally {
+                    try {
+                        // Nuevamente aprovechamos el finally para
+                        // asegurarnos que se cierra el fichero.
+                        if (null != fichero1)
+                            fichero1.close();
+                            fichero2.close();
+                    } catch (Exception e2) {
+                        e2.printStackTrace();
+                    }
+                }
+                switch (caso){
+                    case "Jaccard":
+                        break;
+                    case "Estructura":
+                        break;
+                    case "Hibrido":
+                        break;
+                        default:
+                            System.out.println("Entrada no valida");
+                }
             }
         });
     }
