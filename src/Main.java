@@ -1,10 +1,6 @@
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
-import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap; // import the HashMap class
-import java.util.HashSet;
 import java.util.Collections;
 
 public class Main {
@@ -51,8 +47,6 @@ public class Main {
             }
             Collections.sort(tokensString1);
             Collections.sort(tokensString2);
-//            System.out.println(tokensString1.toString());
-//            System.out.println(tokensString2.toString());
             int l = 0, size1 = tokensString1.size(), size2 = tokensString2.size();
             while(tokensString2.size()>0){
                 if(tokensString2.get(l).equals(tokensString1.get(l))){
@@ -70,10 +64,10 @@ public class Main {
                         tokensString2.remove(l);
                     }
                 }
-//                System.out.println("1 "+ tokensString1.toString());
-//                System.out.println("2 "+tokensString2.toString());
             }
             System.out.println("iguales: " + iguales);
+            System.out.println("Tokens entrada 1: " + size1);
+            System.out.println("Tokens entrada 2: " + size2);
             System.out.println("Jaccard:  " + ((float)(iguales)/(float)(size1 + size2-iguales)));
         } catch (Exception e){
             System.err.println("Error (Test): " + e);
