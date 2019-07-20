@@ -49,29 +49,10 @@ public class Main {
                 Token t = (Token) c;
                 tokensString2.add(t.getText());
             }
-//            HashMap<String, String> tokensIguales = new HashMap<String, String>();
-//            for(int i = 0; i < tokensString2.size(); i++){
-////                j = i;
-////                while(j<tokensString1.size()){
-////                    if(tokensString1.get(j).equals(tokensString2.get(i))){
-//////                        if (tokensIguales.get(tokensString2.get(i)) == null) {
-//////                            tokensIguales.put(tokensString2.get(i), tokensString2.get(i));
-//////                        }
-////                        iguales++;
-////                        j=tokensString1.size();
-////                    }else{
-////                        j++;
-////                    }
-////                }
-//            }
-//            HashSet<String> hs = new HashSet<>();
-//            hs.addAll(tokensString2);
-//            tokensString2.clear();
-//            tokensString2.addAll(hs);
             Collections.sort(tokensString1);
             Collections.sort(tokensString2);
-            System.out.println(tokensString1.toString());
-            System.out.println(tokensString2.toString());
+//            System.out.println(tokensString1.toString());
+//            System.out.println(tokensString2.toString());
             int l = 0, size1 = tokensString1.size(), size2 = tokensString2.size();
             while(tokensString2.size()>0){
                 if(tokensString2.get(l).equals(tokensString1.get(l))){
@@ -79,15 +60,20 @@ public class Main {
                     tokensString2.remove(l);
                     iguales++;
                 }else{
-                    tokensString1.remove(l);
+                    if (tokensString1.contains(tokensString2.get(l))){
+                        tokensString1.remove(l);
+                    } else if (tokensString2.contains(tokensString1.get(l))){
+                        tokensString2.remove(l);
+                    }
+                    else {
+                        tokensString1.remove(l);
+                        tokensString2.remove(l);
+                    }
                 }
+//                System.out.println("1 "+ tokensString1.toString());
+//                System.out.println("2 "+tokensString2.toString());
             }
-//            for (String i : tokensIguales.keySet()) {
-//                System.out.println(i);
-//            }
             System.out.println("iguales: " + iguales);
-            System.out.println("size1: " + tokensString1.size());
-            System.out.println("size2: " + tokensString2.size());
             System.out.println("Jaccard:  " + ((float)(iguales)/(float)(size1 + size2-iguales)));
         } catch (Exception e){
             System.err.println("Error (Test): " + e);
