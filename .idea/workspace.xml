@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6f9b5e-7c16-4aa3-a0e6-244a1226d957" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/Plagiarism-in-Java-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Plagiarism-in-Java-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8BaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8BaseListener.class" afterDir="false" />
@@ -246,10 +247,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8Parser$WildcardContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8Parser$WildcardContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Java8Visitor.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
       <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Plagiarism.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Plagiarism.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plagiarism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plagiarism.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -265,16 +267,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grammar/Java8.g4">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="178">
               <caret line="797" lean-forward="true" selection-start-line="797" selection-end-line="797" />
               <folding>
                 <element signature="e#0#31513#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="1853">
+              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -282,6 +290,12 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/input/entrada2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1717">
+              <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
             </state>
           </provider>
         </entry>
@@ -298,17 +312,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/entrada2.txt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="119">
               <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+=======
+            <state relative-caret-position="-1117">
+              <caret line="1670" column="6" selection-start-line="1670" selection-end-line="1670" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#31513#0" expanded="true" />
+              </folding>
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen/Java8BaseListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1530">
               <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
             </state>
           </provider>
         </entry>
@@ -350,13 +383,29 @@
       <find>RecursionExampleDirectory</find>
       <find>files</find>
       <find>File</find>
-      <find>fact</find>
       <find>getSubs</find>
+<<<<<<< HEAD
       <find>while</find>
       <find>if</find>
       <find>IF</find>
       <find>IF</find>
       <find>ifThenElseStatement</find>
+=======
+      <find>int</find>
+      <find>fact</find>
+      <find>compilationUnit</find>
+      <find>class</find>
+      <find>out</find>
+      <find>for</find>
+      <find>[A-Z]*</find>
+      <find>5</find>
+      <find>35</find>
+      <find>main</find>
+      <find>hola</find>
+      <find>chao</find>
+      <find>[A-Z][A-Z]+</find>
+      <find>iguales</find>
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -365,10 +414,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/input/entrada.txt" />
         <option value="$PROJECT_DIR$/input/entrada2.txt" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Plagiarism.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Plagiarism.java" />
+        <option value="$PROJECT_DIR$/input/entrada.txt" />
+        <option value="$PROJECT_DIR$/input/entrada2.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
       </list>
     </option>
   </component>
@@ -486,7 +542,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.33378196" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49716714" />
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,7 +555,11 @@
       <window_info anchor="bottom" id="Tool Output" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="ANTLR Preview" order="11" weight="0.32839838" />
+=======
+      <window_info anchor="bottom" id="ANTLR Preview" order="11" weight="0.8101983" />
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -575,6 +639,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/input/entrada.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -625,6 +690,45 @@
             <element signature="e#1416#1417#0" expanded="true" />
             <element signature="e#1298#1299#0" expanded="true" />
             <element signature="e#1345#1346#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/grammar/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1117">
+          <caret line="1670" column="6" selection-start-line="1670" selection-end-line="1670" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#31513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plagiarism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/entrada2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/entrada.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> 1cd81f47a8dd03846a89e5b3161d38c3c4940c1b
           </folding>
         </state>
       </provider>
