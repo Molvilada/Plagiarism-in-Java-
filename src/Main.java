@@ -1,10 +1,6 @@
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
-import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap; // import the HashMap class
-import java.util.HashSet;
 import java.util.Collections;
 
 public class Main {
@@ -57,9 +53,7 @@ public class Main {
             Collections.sort(tokensString2);
             Collections.sort(tokensType1);
             Collections.sort(tokensType2);
-
             int l = 0, size1 = tokensString1.size(), size2 = tokensString2.size();
-
             while(tokensType2.size()>0){
                 if(tokensType2.get(l) == tokensType1.get(l)){
                     tokensType1.remove(l);
