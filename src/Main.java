@@ -5,21 +5,11 @@ import java.util.Collections;
 
 public class Main {
 
-//    static void CompararForFor(Plagiarism plagiarism1, Plagiarism plagiarism2){
-//        int forifuales = 0;
-//        for(int i = 0; i < plagiarism2.fors.size(); i++){
-//            for(int j=0;j<plagiarism1.fors.size();j++){
-//                if(plagiarism1.fors.contains(plagiarism2.fors.get(i)) || plagiarism2.fors.contains(plagiarism1.fors.get(j))){
-//                    forifuales++;
-//                }
-//            }
-//        }
-//        for(int i =0; i<plagiarism1.fors.size();i++){
-//            for(int j=0;j<plagiarism2.fors.size();j++){
-//                plagiarism1.fors.get(i);
-//            }
-//        }
-//    }
+    static void CompararForFor(Plagiarism plagiarism1, Plagiarism plagiarism2){
+        int foriguales = 0;
+        String[] tokens = new String[3];
+
+    }
 
     public static void main(String[] args) throws Exception {
         try{
@@ -53,15 +43,39 @@ public class Main {
 //            System.out.println(tree1.toStringTree(parser1)); // imprime el arbol al estilo LISP
 //            System.out.println(tree2.toStringTree(parser2)); // imprime el arbol al estilo LISP
             ArrayList<String> tokensString1 = new ArrayList<>();
-            ArrayList<String> tokensString1fors = new ArrayList<>();
+            ArrayList<ArrayList<String>> tokensString1fors = new ArrayList<>();
+            ArrayList<ArrayList<String>> tokensType1fors = new ArrayList<>();
             ArrayList<String> tokensString2 = new ArrayList<>();
             ArrayList<Integer> tokensType1 = new ArrayList<>();
             ArrayList<Integer> tokensType2 = new ArrayList<>();
+            ArrayList<String> temporal = new ArrayList<>();
+            int k = 0;
+            int bandera_for = 0, llaves = 0;
             for(Object c : tokens1.getTokens()){
                 Token t = (Token) c;
                 tokensString1.add(t.getText());
                 tokensType1.add(t.getType());
+                if (t.getText().equals("for")){
+                    bandera_for = 1;
+                }
+                if (bandera_for > 0){
+                    temporal.add(t.getText());
+                    if (t.getText().equals("{")){
+                        llaves++;
+                    }
+                    if (t.getText().equals("}")){
+                        llaves--;
+                        if(llaves == 0){
+                            tokensString1fors.add(new ArrayList<>(temporal));
+                            temporal.clear();
+                            bandera_for = 0;
+                        }
+
+                    }
+                }
             }
+
+            System.out.println(tokensString1fors.toString());
             for(Object c : tokens2.getTokens()){
                 Token t = (Token) c;
                 tokensString2.add(t.getText());
@@ -115,7 +129,7 @@ public class Main {
             System.out.println("Tipos de tokens iguales: " + iguales_type);
             System.out.println("Jaccard Tokens:  " + ((float)(iguales_text)/(float)(size1 + size2-iguales_text)));
             System.out.println("Jaccard tipos de tokens:  " + ((float)(iguales_type)/(float)(size1 + size2-iguales_type)));
-//            CompararForFor(analisis1, analisis2);
+            CompararForFor(analisis1, analisis2);
         } catch (Exception e){
             System.err.println("Error (Test): " + e);
         }

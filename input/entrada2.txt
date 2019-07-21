@@ -3,9 +3,11 @@ public class HelloWorld2 {
     public static void main(String[] args) {
         // Prints "Hello, World2" to the terminal window.
         System.out.println("Hello, World");
-        for ( int factor = 1; factor <= 9; factor ++ ) {
-            System.out.println("3 x " + factor + " = " + 3*factor );
+        while(j <= 9){
+            System.out.println("while");
+            j++;
         }
+
 
     }
 

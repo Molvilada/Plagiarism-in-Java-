@@ -13,7 +13,7 @@ import java.util.concurrent.locks.Condition;
 public class Plagiarism extends Java8BaseListener {
 
     Java8Parser parser;
-    ArrayList<String> fors = new ArrayList<>();
+    ArrayList<String[]> fors = new ArrayList<>();
     ArrayList<String> whiles = new ArrayList<>();
 
     public Plagiarism(Java8Parser parser) {
@@ -22,14 +22,17 @@ public class Plagiarism extends Java8BaseListener {
 
     @Override
     public void enterBasicForStatement(Java8Parser.BasicForStatementContext ctx) {
-        ArrayList<String> childs = new ArrayList<>();
-        String [] child = ctx.getText().split("");
-        fors.add(ctx.getText());
-        System.out.println(ctx.expression().getText());
-        System.out.println(ctx.forInit().getText());
-        System.out.println(ctx.forUpdate().getText());
-        System.out.println(ctx.statement().getText());
-        System.out.println(ctx.getPayload().getText());
+//        ArrayList<String> childs = new ArrayList<>();
+//        String [] child = new String[3];
+//        child[0] = ctx.expression().getText();
+//        child[1] = ctx.forInit().getText();
+//        child[2] = ctx.forUpdate().getText();
+//        fors.add(child);
+//        for (int i = 0; i < fors.size(); i++){
+//            for (int j = 0; j < 3; j++){
+//                System.out.println(fors.get(i)[j]);
+//            }
+//        }
     }
 
     @Override
