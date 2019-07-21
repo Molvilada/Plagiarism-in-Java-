@@ -1,39 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
-  <grid id="27dc6" binding="Jpanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="Jpanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
     <constraints>
-      <xy x="20" y="22" width="547" height="400"/>
+      <xy x="20" y="22" width="1038" height="533"/>
     </constraints>
-    <properties/>
+    <properties>
+      <autoscrolls value="true"/>
+      <background color="-5324801"/>
+      <inheritsPopupMenu value="false"/>
+      <opaque value="true"/>
+      <preferredSize width="1000" height="500"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
     <clientProperties>
       <html.disable class="java.lang.Boolean" value="true"/>
     </clientProperties>
     <border type="none"/>
     <children>
-      <component id="dc0a1" class="javax.swing.JTextArea" binding="codigoAAnalizar1TextArea" default-binding="true">
-        <constraints>
-          <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Codigo a analizar 1"/>
-        </properties>
-      </component>
-      <component id="6ba5b" class="javax.swing.JTextArea" binding="codigoAAnalizar2TextArea" default-binding="true">
-        <constraints>
-          <grid row="0" column="1" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Codigo a analizar 2"/>
-        </properties>
-      </component>
       <component id="6136d" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
         <constraints>
-          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <model>
@@ -43,12 +30,70 @@
           </model>
         </properties>
       </component>
+      <scrollpane id="d2619">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="500"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7ea03" class="javax.swing.JTextArea" binding="codigoAAnalizar1TextArea">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="501ed">
+        <constraints>
+          <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="500"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a9426" class="javax.swing.JTextArea" binding="codigoAAnalizar2TextArea">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
       <component id="eed3e" class="javax.swing.JButton" binding="realizarAnalisisButton">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <borderPainted value="true"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="false"/>
+          <opaque value="true"/>
+          <selected value="false"/>
           <text value="Realizar análisis"/>
+        </properties>
+      </component>
+      <component id="c4368" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Código de entrada 2"/>
+        </properties>
+      </component>
+      <component id="d1f7f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Código de entrada 1"/>
         </properties>
       </component>
     </children>

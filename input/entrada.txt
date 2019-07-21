@@ -1,1 +1,16 @@
-Codigo a analizar 1asdfasd ti amor :3fasd
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+        for ( int factor = 1; factor <= 9; factor ++ ) {
+            if(factor == 9){
+                System.out.println("if");
+            }
+
+            System.out.println("3 x " + factor + " = " + 3*factor );
+        }
+    }
+
+
+}
