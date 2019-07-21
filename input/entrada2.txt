@@ -8,9 +8,11 @@ public class HelloWorld2 {
             System.out.println("hola");
             j++;
         }
-
-
-
+        while(j <= 9){
+            int m = 10;
+            System.out.println("hola");
+            j++;
+        }
 
 
     }

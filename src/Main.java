@@ -38,9 +38,14 @@ public class Main {
             info_while.add(new ArrayList(temporal_while));
             temporal_while.clear();
         }
-
-
-
+        int iguales = 0;
+        for(int i = 0; i< info_while.size();i++){
+            if(info_for.contains(info_while.get(i))){
+                info_for.remove(info_while.get(i));
+                iguales++;
+            }
+        }
+        System.out.println("iguales: " + iguales);
     }
 
     public static void main(String[] args) throws Exception {
