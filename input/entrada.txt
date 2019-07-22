@@ -1,7 +1,13 @@
 public class HelloWorld1 {
     public static void main(String[] args) {
-        j = 1;
-        System.out.println("Hello, World");
+        if (j == 12){
+            System.out.println("hola");
+        }else if (j == 12){
+
+        }else{
+
+        }
+
         while(i < 8){
                     System.out.println("hola");
                 }

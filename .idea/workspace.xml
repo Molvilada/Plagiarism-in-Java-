@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6f9b5e-7c16-4aa3-a0e6-244a1226d957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Plagiarism-in-Java-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Plagiarism-in-Java-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input/entrada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/entrada.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/entrada2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/entrada2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/GUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/GUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plagiarism-in-Java-/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="267" column="82" selection-start-line="58" selection-start-column="12" selection-end-line="267" selection-end-column="82" />
+            <state relative-caret-position="3162">
+              <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/entrada.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -52,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/input/entrada2.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="9" lean-forward="true" selection-end-line="19" />
+              <caret line="7" column="9" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -60,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen/Java8BaseListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="28407">
               <caret line="1673" column="26" selection-start-line="1673" selection-start-column="26" selection-end-line="1673" selection-end-column="26" />
             </state>
           </provider>
@@ -69,22 +63,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="986">
               <caret line="69" column="110" selection-start-line="69" selection-start-column="110" selection-end-line="69" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3279#19753#0" expanded="true" />
-                <element signature="e#19752#19753#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/for_while.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -130,14 +122,14 @@
         <option value="$PROJECT_DIR$/src/PlagiarismMain.java" />
         <option value="$PROJECT_DIR$/src/Plagiarism.java" />
         <option value="$PROJECT_DIR$/input/entrada2.txt" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/input/entrada.txt" />
         <option value="$PROJECT_DIR$/src/GUI.java" />
         <option value="$PROJECT_DIR$/src/GUI.form" />
+        <option value="$PROJECT_DIR$/input/entrada.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -148,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -191,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GUI">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="MAIN_CLASS_NAME" value="GUI" />
@@ -243,8 +235,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +262,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19798657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -279,7 +271,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.63172805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/Java8BaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1673" column="26" selection-start-line="1673" selection-start-column="26" selection-end-line="1673" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Plagiarism.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -436,54 +421,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/input/for_while" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="267" column="82" selection-start-line="58" selection-start-column="12" selection-end-line="267" selection-end-column="82" />
+        <state relative-caret-position="3162">
+          <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/for_while">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="69" column="110" selection-start-line="69" selection-start-column="110" selection-end-line="69" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3279#19753#0" expanded="true" />
-            <element signature="e#19752#19753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/input/entrada.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input/entrada2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="true" selection-end-line="19" />
+          <caret line="7" column="9" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/Java8BaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28407">
+          <caret line="1673" column="26" selection-start-line="1673" selection-start-column="26" selection-end-line="1673" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="69" column="110" selection-start-line="69" selection-start-column="110" selection-end-line="69" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input/for_while.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">

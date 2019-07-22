@@ -90,6 +90,8 @@ public class Main {
             ArrayList<ArrayList<Integer>> tokensType1fors = new ArrayList<>();
             ArrayList<ArrayList<String>> tokensString1whiles = new ArrayList<>();
             ArrayList<ArrayList<Integer>> tokensType1whiles = new ArrayList<>();
+            ArrayList<ArrayList<String>> tokensString1if = new ArrayList<>();
+            ArrayList<ArrayList<Integer>> tokensType1if = new ArrayList<>();
             ArrayList<String> tokensString2 = new ArrayList<>();
             ArrayList<ArrayList<String>> tokensString2fors = new ArrayList<>();
             ArrayList<ArrayList<Integer>> tokensType2fors = new ArrayList<>();
@@ -99,9 +101,12 @@ public class Main {
             ArrayList<Integer> tokensType2 = new ArrayList<>();
             ArrayList<String> temporal = new ArrayList<>();
             ArrayList<Integer> temporal2 = new ArrayList<>();
+            ArrayList<String> temporal_if = new ArrayList<>();
+            ArrayList<Integer> temporal2_if = new ArrayList<>();
 
             int k = 0;
-            int bandera_for = 0, llaves = 0, bandera_while = 0, bandera_variable = 0;
+            int bandera_for = 0, llaves = 0, llaves_if = 0,  bandera_while = 0, bandera_variable = 0, bandera_if = 0, bandera_elif = 0, bandera_else = 0, bandera_igual = 0,
+            c_ifs = 0;
             ArrayList<String> variables1 = new ArrayList<>();
             ArrayList<String> variables2 = new ArrayList<>();
             ArrayList<Integer> posicion1 = new ArrayList<>();
@@ -127,6 +132,18 @@ public class Main {
                     bandera_while = 1;
                     bandera_variable = 0;
                     posicion1.add(t.getTokenIndex());
+                }
+                if (t.getText().equals("if")){
+                    bandera_if = 1;
+                    c_ifs++;
+                    if(bandera_else == 1){
+                        bandera_elif = 1;
+                        bandera_else = 0;
+                        bandera_if = 0;
+                    }
+                }
+                if (t.getText().equals("else")){
+                    bandera_else = 1;
                 }
                 if (bandera_for > 0){
                     temporal.add(t.getText());
@@ -168,7 +185,72 @@ public class Main {
 
                     }
                 }
+
+//                if (bandera_if > 0){
+//                    temporal_if.add(t.getText());
+//                    temporal2_if.add(t.getType());
+//                    if (t.getText().equals("==")){
+//                        bandera_igual++;
+//                    }
+//                    if (t.getText().equals("{")){
+//                        llaves_if++;
+//
+//                    }
+//                    if (t.getText().equals("}")){
+//                        llaves_if--;
+//
+//                        if(llaves_if == 0){
+//                            System.out.println("aqui");
+//                            bandera_if = 0;
+////                            System.out.println(temporal_if.toString());
+//                        }
+//
+//                    }
+//
+//                }
+//                if (bandera_elif > 0){
+//
+//                    temporal_if.add(t.getText());
+//                    temporal2_if.add(t.getType());
+//                    if (t.getText().equals("==")){
+//                        bandera_igual++;
+//                    }
+//                    if (t.getText().equals("{")){
+//                        llaves_if++;
+//                    }
+//                    if (t.getText().equals("}")){
+//                        llaves_if--;
+//                        if(llaves_if == 0){
+//                            bandera_elif = -1;
+//                        }
+//
+//                    }
+//                }
+//                if (bandera_else > 0 && bandera_elif == -1){
+//
+//                    temporal_if.add(t.getText());
+//                    temporal2_if.add(t.getType());
+//                    if (t.getText().equals("{")){
+//                        llaves_if++;
+//                    }
+//                    if (t.getText().equals("}")){
+//                        llaves_if--;
+//                        if(llaves_if == 0){
+//                            if(bandera_igual == c_ifs){
+//                                tokensString1if.add(new ArrayList<>(temporal_if));
+//                                tokensType1if.add(new ArrayList<>(temporal2_if));
+//                            }
+//                            temporal_if.clear();
+//                            temporal2_if.clear();
+//                            bandera_else = 0;
+//                            bandera_igual = 0;
+//                        }
+//
+//                    }
+//                }
             }
+
+            System.out.println(tokensString1if.toString());
 
             bandera_for = 0; llaves = 0; bandera_while = 0; bandera_variable = 0;
 
