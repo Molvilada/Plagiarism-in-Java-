@@ -1,21 +1,19 @@
 public class HelloWorld2 {
-
     public static void main(String[] args) {
-        j = 1;
+        // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, World");
-        while(j <= 9){
-            int m = 10;
-            System.out.println("hola");
-            j++;
+        for ( int j = 1; j <= 9; j ++ ) {
+            int v = 2;
+            System.out.println(v);
         }
-        while(j <= 9){
-            int m = 10;
-            System.out.println("hola");
-            j++;
-        }
-
-
+        for ( int j = 1; j <= 9; j ++ ) {
+                    int v = 2;
+                    System.out.println(v);
+                }
     }
-
-
 }
+
+
+
+
+

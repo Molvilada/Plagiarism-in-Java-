@@ -23,10 +23,10 @@
           <grid row="1" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <enabled value="true"/>
           <model>
             <item value="Jaccard"/>
             <item value="Estructura"/>
-            <item value="Hibrido"/>
           </model>
         </properties>
       </component>
